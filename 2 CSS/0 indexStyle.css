@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+* {
+	box-sizing: border-box;
+	font-family: raleway;
+	color: #777;
+}
+
+html, body {
+	background-color: white;
+	margin: 0;
+	padding: 0; /*height: 200vh;*/
+}
+
+nav ul {
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+}
+
+nav ul > li > a {
+	text-decoration: none;
+	display: block;
+}
+
+/*====================================================
+####################### HEADER #######################
+====================================================*/
+.top-header-logo {
+	color: black;
+	text-align: center;
+}
+
+.han {
+	color: blue;
+}
+
+.gul {
+	color: red;
+}
+
+/*====================================================
+####################### NAV-BAR ######################
+====================================================*/
+.nav-bar {
+	background-color: #333333;
+}
+
+.nav-bar ul > li {
+	display: inline-block;
+	font-size: 17px;
+}
+
+.nav-bar ul > li > a {
+	text-transform: uppercase;
+}
+
+.nav-bar ul > li:last-child {
+	float: right;
+}
+
+.nav-bar ul > li > a {
+	color: white;
+	padding: 16px;
+}
+
+.nav-bar ul > li > a:hover {
+	background-color:blue;
+	color: black; 
+	font-weight: bold;
+}
+
+
+/*====================================================
+################## CTN-1 > [NAV-SDBAR] #################
+====================================================*/
+.container-1 {
+	display: flex;
+}
+
+.nav-sdbar {
+	background-color: #f1f1f1;
+	height: 100%;
+	width: 150px;
+	flex-shrink: 0;
+}
+
+.nav-sdbar ul > li {
+	display: contents;
+	font-size: 15px;	
+}
+
+.nav-sdbar ul > li > a {
+	color: #333; 
+	padding: 2px 1px 1px 16px;
+}
+
+.nav-sdbar ul > li > a:hover {
+	background-color: #555;
+	color: white;
+	font-weight: bold;
+}
+
+/*====================================================
+############# CTN-2 > [MAIN > HEADER&IMG] ############
+====================================================*/
+.container-2 {
+	height: 100%;
+	width: 83.33333%;
+	padding: 16px 32px 32px 32px;
+    border-right: 1px solid #f1f1f1;
+	flex-shrink: 2;
+}
+
+.main-header {
+	color: #333;
+}
+
+.kr-flag {
+	float: right;
+	width: 150px;
+	height: 100px;
+	margin: 15px;
+}
+
+/*====================================================
+########## CTN-2.1 > [UPFOOTER > BTFOOTER] ##########
+====================================================*/
+.container-2a {
+}
+
+.top-footer {
+	background-color: #56ccf2;
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo {
+	padding: 2px 1px 1px 16px;
+	color: white;
+}
+
+.footer-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding: 2px 1px 1px 16px;
+}
+
+.top-footer ul > li {
+	display: inline-block;
+	padding: 16px;
+}
+
+
+.top-footer img {
+	width: 30px;
+	height: 30px;
+}
+
+.bttm-footer {
+	text-align: center;
+}
+
+.footer-nav a:hover {
+	background-color:#333333;
+}
+
+/*====================================================
+###################### ASIDE #########################
+====================================================*/
+aside {
+	padding: 16px 8px;
+	width: 16.66666%;
+	flex-shrink: 1;
+}
